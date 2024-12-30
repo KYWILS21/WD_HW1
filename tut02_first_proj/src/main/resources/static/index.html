@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--  HTML comments use these delimiters -->
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navBar">
+        <div id="title">
+            <h1>
+                The &nbsp;<span class="highlight"> Healthy Food </span> &nbsp;&nbsp;Website
+            </h1>
+        </div>
+        
+
+        <div id="nav">
+            <a href="index.html">Home</a> |
+            <a href="#">Blog</a>
+        </div>
+    </div>
+
+    <div id="content">
+        <p>
+            This website offers reliable resources on nutritious eating, 
+            with expert advice, healthy recipes, and dietary guidance to 
+            promote overall wellness. Focused on whole foods, fruits, vegetables, 
+            lean proteins, and balanced meal planning, we emphasize the importance 
+            of limiting processed foods and added sugars to help you make informed 
+            food choices for a healthier lifestyle. 
+            <br>
+            <img src="/pics/healthy_food.png" alt="HF" >
+        </p>
+        
+
+        <h2>Blog</h2>
+        <h3>Server Page</h3>
+        <p>
+            This page provides a platform for users to connect and engage with one another. 
+            Through these connections, users can build friendships, share valuable tips, and 
+            exchange a wealth of information, including personalized guides to healthy eating. 
+            It's a space where members can support each other in making informed food choices 
+            and promoting a healthier lifestyle.
+            Link to the server page: <a id="ssl" href="hello" target="_blank">Here</a>
+        </p>
+    </div>
+
+    <div class="tags">
+        <h3>My Database Experience</h3>
+        <p>This will be my first experience working with databases.</p>
+    </div>
+
+    <div class="tags">
+        <h3>My Web Development Experience</h3>
+        <p>
+            I have spent six months working with HTML, CSS, and 
+            JavaScript to build various web application.
+        </p>
+    </div>
+
+    <div class="tags">
+        <h3>HW 1 Home Page</h3>
+        <p>
+            I found writing and compiling the code for the website straightforward. 
+            However, integrating the website with the other Java files proved to be 
+            more challenging.
+        </p>
+    </div>
+
+    <div id="footer">
+        <p>Kyle Wilson</p>
+    </div>
+</body>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 1.6;
+        padding: 0 1rem;
+    }
+
+    #navBar {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 1px dashed #ddd;
+        font-size: 23px;    
+    }
+
+    img{
+       width: 60%;
+       height: 60%;
+       margin-left: 40%;
+       margin-top: 2%;
+    }  
+
+    #title h1 {
+        white-space: nowrap;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .highlight {
+        color: #0ac232; /* Green to indicate health */
+        font-weight: bold;
+        font-style: italic;
+        text-shadow: 1px 1px 5px #ddd; /* Light shadow for emphasis */
+    }
+
+
+    #nav a {
+        margin: 0 0.5rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    #content {
+        margin: 2rem 0;
+    }
+
+    #content p {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    #content a {
+        color: #00b3ff;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* Tags section styling */
+    .tags {
+        margin: 2rem 0;
+        padding: 1rem;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        color: #4B5945;
+    }
+
+    #footer {
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+        justify-content: space-between;
+        border-top: 1px dashed #ddd;
+        font-size: 200%;
+    }
+</style>
+
+</html>

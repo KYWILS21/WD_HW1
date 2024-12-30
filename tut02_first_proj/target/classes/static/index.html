@@ -12,8 +12,11 @@
 <body>
     <div id="navBar">
         <div id="title">
-            <h1>A Healthy Food Website</h1>
+            <h1>
+                The &nbsp;<span class="highlight"> Healthy Food </span> &nbsp;&nbsp;Website
+            </h1>
         </div>
+        
 
         <div id="nav">
             <a href="index.html">Home</a> |
@@ -22,47 +25,49 @@
     </div>
 
     <div id="content">
-        <p1>
-            An online website that provides reliable information 
-            and resources on nurtitious eating healthy meals, 
-            offering detailed dietary guidance, healthy recipes, and
-            expert advice on making informed food choices to promote overall
-            wellness, often featuring content on whole foods, fruits, vegetables, 
-            lean proteins, and balanced meal planning, while emphasizing the importance 
-            of limiting processed foods and added sugars. 
+        <p>
+            This website offers reliable resources on nutritious eating, 
+            with expert advice, healthy recipes, and dietary guidance to 
+            promote overall wellness. Focused on whole foods, fruits, vegetables, 
+            lean proteins, and balanced meal planning, we emphasize the importance 
+            of limiting processed foods and added sugars to help you make informed 
+            food choices for a healthier lifestyle. 
             <br>
             <img src="/pics/healthy_food.png" alt="HF" >
-        </p1>
+        </p>
         
 
         <h2>Blog</h2>
         <h3>Server Page</h3>
         <p>
-            This page allows users to connect with each other.
-            While connecting, users are able to friend each other and
-            share healthy a guide to healthy foods. <br>
+            This page provides a platform for users to connect and engage with one another. 
+            Through these connections, users can build friendships, share valuable tips, and 
+            exchange a wealth of information, including personalized guides to healthy eating. 
+            It's a space where members can support each other in making informed food choices 
+            and promoting a healthier lifestyle.
             Link to the server page: <a id="ssl" href="hello" target="_blank">Here</a>
         </p>
     </div>
 
     <div class="tags">
         <h3>My Database Experience</h3>
-        <p>This will be my first time working with database experience.</p>
+        <p>This will be my first experience working with databases.</p>
     </div>
 
     <div class="tags">
         <h3>My Web Development Experience</h3>
         <p>
-            For half-a-year, I have worked with HTML, CSS, and JavaScript to
-            create multiple web applications.
+            I have spent six months working with HTML, CSS, and 
+            JavaScript to build various web application.
         </p>
     </div>
 
     <div class="tags">
         <h3>HW 1 Home Page</h3>
         <p>
-            I found compiling and writing up code for the website was easy.
-            What I found difficult was putting together the website with the other java files.
+            I found writing and compiling the code for the website straightforward. 
+            However, integrating the website with the other Java files proved to be 
+            more challenging.
         </p>
     </div>
 
@@ -91,11 +96,12 @@
         align-items: center;
         padding: 1rem 0;
         border-bottom: 1px dashed #ddd;
+        font-size: 23px;    
     }
 
     img{
-       width: 50%;
-       height: 50%;
+       width: 60%;
+       height: 60%;
        margin-left: 40%;
        margin-top: 2%;
     }  
@@ -103,12 +109,22 @@
     #title h1 {
         white-space: nowrap;
         font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
     }
+
+    .highlight {
+        color: #0ac232; /* Green to indicate health */
+        font-weight: bold;
+        font-style: italic;
+        text-shadow: 1px 1px 5px #ddd; /* Light shadow for emphasis */
+    }
+
 
     #nav a {
         margin: 0 0.5rem;
         text-decoration: none;
-        color: #007BFF;
+        color: #ffffff;
     }
 
     #content {
@@ -119,12 +135,6 @@
         margin-bottom: 1rem;
         font-size: 1.5rem;
     }
-
-    #content p1 {
-        margin-bottom: 1rem;
-        font-size: 1.5rem;
-    }
-    
 
     #content a {
         color: #00b3ff;
@@ -146,7 +156,9 @@
         text-align: center;
         padding: 1rem 0;
         margin-top: 2rem;
-        border-top: 1px solid #ddd;
+        justify-content: space-between;
+        border-top: 1px dashed #ddd;
+        font-size: 200%;
     }
 </style>
 
